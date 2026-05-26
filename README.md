@@ -86,17 +86,7 @@ yolo_bike_rental_model/
 │   ├── analysis.py         # Sensitivity, what-if, scalability
 │   └── visualize.py        # Result plots
 ├── results/                # Generated outputs (after running)
-│   ├── lp_rentals.csv
-│   ├── lp_transfers.csv
-│   ├── milp_rentals.csv
-│   ├── milp_transfers.csv
-│   ├── greedy_rentals.csv
-│   ├── greedy_transfers.csv
-│   ├── summary.json
-│   ├── eda_analysis.png
-│   └── results_dashboard.png
-└── write-up/
-    └── technical_writeup.md
+
 ```
 
 ## How to Run
@@ -109,7 +99,4 @@ pip install -r requirements.txt
 python run.py
 ```
 
-All results (CSVs, plots, summary JSON) are saved to `results/`.
-
-## Key Results
 
